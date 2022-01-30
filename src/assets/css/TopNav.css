@@ -1,0 +1,23 @@
+
+.toolbar {
+    background-color:  lightgreen;
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.toolbar-item{
+    border: 1px solid black;
+    background: none;
+    box-shadow: none;
+    border-radius: 0;
+    width: 100%;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.grid-3{
+    grid-column: 3 / span 2;
+}
+.grid-5{
+    grid-column: 6;
+}
