@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import AppConfig from "../../config/AppConfig";
-import PortfolioGraph from "../api/PortfolioGraph";
-import PortfolioBalance from "../api/PortfolioBalance"
-import AvailableNVDBalance from "../api/AvailableNVDBalance";
+import PortfolioGraph from "../contents/PortfolioGraph";
+import PortfolioBalance from "../contents/PortfolioBalance";
+import AvailableNVDBalance from "../contents/AvailableNVDBalance";
 
 const pageName = "Dashboard";
 const GRAPH_URL = "http://localhost:8080/pmx/v1/crypto/fakes";

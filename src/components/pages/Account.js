@@ -1,19 +1,16 @@
-import React, { useEffect } from "react";
-import AppConfig from "../../config/AppConfig";
-
-const pageName = "Account"
-
+import React, { useEffect, useState } from "react";
+import AccountDetails from "../contents/AccountDetails";
 
 const Account = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
-    document.title = pageName + " - " + AppConfig.APP_NAME;
-
-    useEffect(() => {
-        window.scrollTo(0, 0);
-    }, []);
-
-  return <div className="centered">Account</div>;
+  return (
+    <div>
+      <AccountDetails />
+    </div>
+  );
 };
 
 export default Account;
-

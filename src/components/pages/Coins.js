@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import AppConfig from "../../config/AppConfig";
-import AllCoins from "../api/AllCoins";
+import AllCoins from "../contents/AllCoins";
 
 const pageName = "Coins";
 
